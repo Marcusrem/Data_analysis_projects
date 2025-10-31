@@ -4,7 +4,7 @@
 Questo repository raccoglie **5 progetti di analisi dati e modellizzazione statistica in R**,  
 che spaziano dal controllo qualità del vino bianco alla previsione dell’indice S&P500.  
 
-Ogni progetto è sviluppato in **RMarkdown (.Rmd)** o **Quarto (.qmd)**, con codice riproducibile, grafici ed interpretazioni.
+Ogni progetto è sviluppato in **RMarkdown (.Rmd)** o **Quarto (.qmd)**, grafici ed interpretazioni.
 
 ---
 
@@ -12,11 +12,11 @@ Ogni progetto è sviluppato in **RMarkdown (.Rmd)** o **Quarto (.qmd)**, con cod
 
 | # | Titolo | Obiettivo | Tecniche Principali |
 |---|---------|------------|--------------------|
-| 1️⃣ | [Controllo Statistico del Vino Bianco]| Analizzare la qualità e la stabilità produttiva | Statistica descrittiva, ANOVA, PCA, Carte di controllo |
+| 1️⃣ | [Controllo Statistico del Vino Bianco]| Analizzare la qualità e la stabilità produttiva | Statistica descrittiva, ANOVA, Carte di controllo |
 | 2️⃣ | [Regressione Logistica su Pazienti Diabetici] | Predire presenza di diabete | Logistic Regression, ROC, Confusion Matrix |
 | 3️⃣ | [Regressione Spaziale sulle Case di Boston]| Relazione tra prezzo e posizione geografica | Moran’s I, SAR, SEM |
-| 4️⃣ | [Clustering delle Holding Aziendali] | Identificare pattern di concentrazione proprietaria | K-Means, PCA, Silhouette |
-| 5️⃣ | [Analisi delle Serie Storiche sull’S&P500] | Analisi e previsione dei mercati | ARIMA, GARCH, Forecast |
+| 4️⃣ | [Clustering delle Holding Aziendali] | Identificare pattern di concentrazione proprietaria | K-Means, PAM, Model based Algorithm, Silhouette |
+| 5️⃣ | [Analisi delle Serie Storiche sull’S&P500] | Analisi e previsione dei mercati | ARIMA, ARCH-GARCH, Forecast |
 
 ---
 
