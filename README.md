@@ -12,7 +12,7 @@ Ogni progetto è sviluppato in **RMarkdown (.Rmd)** o **Quarto (.qmd)**, grafici
 
 | # | Titolo | Obiettivo | Tecniche Principali |
 |---|---------|------------|--------------------|
-| 1️⃣ | [Controllo Statistico del Vino Bianco]| Analizzare la qualità e la stabilità produttiva | Statistica descrittiva, ANOVA, Carte di controllo |
+| 1️⃣ | [Controllo Statistico del Vino Bianco]| Analizzare la qualità e la stabilità produttiva del vino bianco | Statistica descrittiva, ANOVA, Carte di controllo |
 | 2️⃣ | [Regressione Logistica su Pazienti Diabetici] | Predire presenza di diabete | Logistic Regression, ROC, Confusion Matrix |
 | 3️⃣ | [Regressione Spaziale sulle Case di Boston]| Relazione tra prezzo e posizione geografica | Moran’s I, SAR, SEM |
 | 4️⃣ | [Clustering delle Holding Aziendali] | Identificare pattern di concentrazione proprietaria | K-Means, PAM, Model based Algorithm, Silhouette |
@@ -20,10 +20,7 @@ Ogni progetto è sviluppato in **RMarkdown (.Rmd)** o **Quarto (.qmd)**, grafici
 
 ---
 
-## 1️⃣ Controllo Statistico del Vino Bianco  
-
-**🎯 Obiettivo:**  
-Verificare la qualità del vino bianco analizzando parametri chimici e il controllo del processo produttivo.  
+## Library principali usate
 
 **📦 Pacchetti principali:**
 ```r
@@ -40,6 +37,5 @@ library(quantmod)
 library(tseries)
 library(forecast)
 library(rugarch)
-
 library(qcc)
 library(car)
